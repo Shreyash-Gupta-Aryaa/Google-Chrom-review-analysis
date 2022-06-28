@@ -1,0 +1,12 @@
+
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<h1 align="center">Results</h1>
+ 
+<body>    
+<br>
+    <p align="center">Showing People with good review but 1 or 2 star rating</p>
+    <p align = "center">{{ data_var|safe }}</p>
+ 
+</body>
+{% endblock %}
